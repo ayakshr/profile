@@ -58,7 +58,18 @@ a:hover {
   margin: 20px;
   padding: 30px;
   /*border: 5px solid #B8B2A6;*/
-  box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 8px rgba(0,0,0,0.3);
+}
+
+.list-simple {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-simple > li {
+  margin: 16px auto;
+  font-size: 20px;
+  color: #494CA2;
 }
 
 .image-cicle {
@@ -68,10 +79,11 @@ a:hover {
 }
 
 .btn-green {
-  background-color: white;
+  background-color: #FDFDF6;
   border: 3px solid;
-  padding: 7px 20px;
+  padding: 8px 16px;
   border-radius: 8px;
+  font-size: 16px;
 }
 
 .btn-green:hover {
